@@ -1,11 +1,11 @@
 ECHO est� ativado.
 comandos:
 git init
-git config --local user.name "seu nome"
-git config -- user.email "seuemailaoliveiraes@gmail.com
+git config --local user.name "ana"
+git config -- user.email "anaclaraoliveiraes@gmail.com
 git status 
 git push -u origin master
 
 -- quando necessatio 
-git config credential.username "seu nome
+git config credential.username "ana"
 
