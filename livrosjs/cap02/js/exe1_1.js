@@ -9,3 +9,8 @@ frm.addEventListener("submit", (e)=>{
     resp.innerText = `Olá ${nome}`; // exibe a resposta do progama
     e.preventDefault(); // vai evitar que o form envie os dados pro destino.php
 });
+function executar(evento) {
+    const nome = frm.inNome.value; // obtem o nome digitado no form
+    resp.innerText = `Olá ${nome}`; // exibe a resposta do progama
+    evento.preventDefault();
+}
