@@ -2,8 +2,8 @@ const frm = document.querySelector("form") //passa o form para uma variavel
 const resp = document.querySelector("h3") //passa o h3 para uma variavel onde irá imprimir o resultado
 
 frm.addEventListener("submit", (e) => {
-    const quilo = Number(frm.inQuilo.value) //recebe o valor digitado
-    const valor = Number(quilo % 2) //usado metodo "mod" para retornar o resto de uma divisão. Se for 0 e par e se for 1 impar.
+    const Numero = Number(frm.inNumero.value) //recebe o valor digitado
+    const valor = Number(Numero % 2) //usado metodo "mod" para retornar o resto de uma divisão. Se for 0 e par e se for 1 impar.
     const ternario = frm.inChk.checked //receber o valor da checkbox
     //alert(ternario)
     if (ternario==false) { // se o checkbox estiver desmarcado faz o if normal
